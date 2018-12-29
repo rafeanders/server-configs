@@ -1,0 +1,39 @@
+DrawTime: 60
+UseTimeDraw: true
+TimeDrawCheckIntervalSeconds: 60
+TimeDraws:
+- 00:00:00
+- 06:00:00
+- '12:00:00'
+- '18:00:00'
+GlobalBoughtMessage: true
+TicketCost: 10.0
+MoneyToPot: 10.0
+ExtraInPot: 5.0
+Refund: 10.0
+TaxesPercent: 10
+ServerAccount: none
+MinPlayers: 1
+BuyCooldownTimeSeconds: 60
+EnableChanceNoWin: true
+ChanceNoWinIfLessTicketsSold: false
+ChanceNoWinPercent: 101/200
+NoWinBackToPotPercent: 100
+Reminder: true
+RemindIntervalSeconds: 3600
+OnlyOnlineWin: false
+LoginWinMessage: true
+LoginWinMessageDelayTicks: 10
+PerformCommandOnLotteryCMD: true
+CommandOnLotteryCMD: lottery gui
+UpdateCheck: true
+Metrics: true
+TicketLimits:
+  Default: 10
+BlockedWorlds:
+- guest_live
+WinCommands:
+  Enabled: true
+  ExecuteIfOffline: false
+  Commands:
+  - xp 10l %player%
