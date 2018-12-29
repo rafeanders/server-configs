@@ -29,7 +29,7 @@ CommandOnLotteryCMD: lottery gui
 UpdateCheck: true
 Metrics: true
 TicketLimits:
-  Default: 10
+  Default: 20
 BlockedWorlds:
 - guest_live
 WinCommands:
