@@ -1,0 +1,89 @@
+# UltimateShops for Craftbukkit / Spigot
+# Author: Brandon (ThirtyVirus) Calabrese
+#
+# YouTube:      https://www.youtube.com/channel/UC04QdEl71CFDogk8pzY7Geg
+# Twitter:      https://twitter.com/Thirtyvirus
+# SpigotMC:     https://www.spigotmc.org/members/thirtyvirus.179587/
+# BUY PREMIUM:  https://www.spigotmc.org/resources/61048/
+
+# FILE: config.yml
+# These are the settings for UltimateShops. Change whatever you like but do not remove any
+# non-comment lines, as this will result in errors.
+
+# FUNCTIONAL PROPERTIES
+
+# The maximum capacity of shops (in stacks)
+shop-max-capacity-in-stacks: 6400
+
+# The radius in which vendors can remotely stock shops by clicking a chest w/ a stick
+chest-remote-restock-radius: 32
+
+# Auto-Purge
+# Automatically purge empty shops that have been inactive for "purge-age" time
+# (no transactions, restocking, changing settings, etc...)
+# h = hours, d = days, w = weeks, m = months
+auto-purge: false
+purge-age: 1m
+
+# AESTHETIC PROPERTIES
+
+# Change the prefix that shows up in inventories and chat [PREMIUM ONLY]
+plugin-prefix: "&c&l[&5&luShops&c&l] &8&l"
+
+# Available message inserts:
+#   [location]  |     The shop's location
+#   [item]      |     The ItemStack's name
+#   [amount]    |     The ItemStack's stack
+#   [host]      |     The shop's host player's name
+#   [customer]  |     The customer's name
+#   [money]     |     Money transferred during transaction
+#   [unitPrice] |     Money per unit (money / stack)
+#   [funds]     |     Player's money
+
+# Informs customer player of transaction
+inform-customer-of-transaction: true
+customer-buy-message: Purchased [amount] * [item] at [host]'s shop! Cost = $[money]
+customer-sell-message: Sold [amount] * [item] at [host]'s shop! Profit = $[money]
+
+# Informs host player that a transaction look place in their shop
+inform-host-of-transaction: true
+host-buy-message: Player [customer] bought [amount] * [item] at your shop! Profit = $[money]
+host-sell-message: Player [customer] sold [amount] * [item] at your shop! Cost = $[money]
+
+# Informs customer that they do not have enough funds for a sale
+inform-customer-not-enough-funds: true
+not-enough-funds-message: You do not have enough funds! Cost = $[money]. Funds = $[funds]
+
+# Informs customer that the shop does not have enough funds for a sale
+inform-customer-shop-out-of-funds: true
+shop-out-of-funds-message: The shop owner, [host], is out of funds!
+
+# Informs customer that they do not have enough items for a sale
+inform-customer-not-enough-items: true
+not-enough-items-message: You do not have enough of [item] for sale!
+
+# Informs customer that the shop does not have enough items for a sale
+inform-customer-shop-out-of-items: true
+shop-out-of-items-message: The shop is out of [item]. Inform [host]!
+
+# Informs customer that they do not have enough inventory space for a sale
+inform-customer-shop-out-of-space: true
+customer-out-of-space-message: You do not have enough inventory space for sale!
+
+# Informs user that the shop is out of space
+inform-user-shop-out-of-space: true
+shop-out-of-space-message: The shop is full!
+
+# DEBUG MODE
+# 
+# When enabled, your server console will recieve many more messages, including:
+# Notifications for each ushop that is created during runtime
+# Notifications for each ushop that is deleted during runtime
+# Notifications for each ushop that is loaded from file on server start
+# Notifications for each ushop that is saved (on server stop OR after transaction / modification)
+# Notifications for each ushop that is purged (manually or automatically)
+# Notifications for each transaction done through a ushop
+# Notifications for each transaction command executed through a ushop
+# Notifications for each chunk loaded which contains a ushop
+# Notifications for each chunk unloaded which contains a ushop
+debug: false
