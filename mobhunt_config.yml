@@ -1083,7 +1083,7 @@ fishing:
 
   # ### Raw Cod settings ###
   cod:
-    enabled: true
+    enabled: false
     message: You caught a §1{killed}
     money:
       amount: '1:3'
@@ -1099,7 +1099,7 @@ fishing:
 
   # ### Raw Salmon settings ###
   salmon:
-    enabled: true
+    enabled: false
     message: You caught a §1{killed}
     money:
       amount: '2:8'
@@ -1117,7 +1117,7 @@ fishing:
 
   # ### Tropical Fish settings ###
   tropical_fish:
-    enabled: true
+    enabled: false
     message: You caught a §1{killed}
     money:
       amount: '20:40'
@@ -1133,7 +1133,7 @@ fishing:
 
   # ### Pufferfish settings ###
   pufferfish:
-    enabled: true
+    enabled: false
     message: You caught a §1{killed}
     money:
       amount: '5:15'
@@ -1214,8 +1214,8 @@ achievements:
   # Put the names of the worlds here where you want to disable achievements.
   # Players will still get rewards for killings.
   disable_achievements_in_worlds:
-  - worldname
-  - worldname2
+  - guest_live
+  - skynet
 
   # Set this to true if you want to see achievements when you use /mobhunt achievements
   # allthough there is no reward for this.
@@ -1501,9 +1501,9 @@ multiplier:
   # REMEMBER: These are not in $ but they are a multiplier. 
   # Setting to 1 will disable them.
   bonus:
-    sneaky: 2.0
-    return_to_sender: 2.0
-    push_off_cliff: 2.0
+    sneaky: 1.25
+    return_to_sender: 1.25
+    push_off_cliff: 1.25
     no_weapon: 2.0
 
     # This is the PRO_Sniper bonus. The Sniper bonus is calulated as half of PRO_Sniper bonus.
