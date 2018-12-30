@@ -251,7 +251,7 @@ arenas:
           type: boss
           wave: 9
           monster: spider
-          health: low
+          health: verylow
           abilities: fire-aura, disorient-target, fireballs, throw-nearby
           effects: speed:3:20, wither, increase_damage:1
           ability-interval: 5
