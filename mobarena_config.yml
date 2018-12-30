@@ -201,7 +201,7 @@ arenas:
       display-timer-as-level: false
       use-scoreboards: true
       isolated-chat: false
-      global-join-announce: false
+      global-join-announce: true
       global-end-announce: false
       show-death-messages: truewell 
     waves:
