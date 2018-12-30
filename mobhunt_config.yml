@@ -1502,7 +1502,7 @@ multiplier:
   # Setting to 1 will disable them.
   bonus:
     sneaky: 1.10
-    return_to_sender: 1.15
+    return_to_sender: 1.10
     push_off_cliff: 1.15
     no_weapon: 1.5
 
