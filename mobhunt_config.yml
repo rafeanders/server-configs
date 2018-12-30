@@ -144,7 +144,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '-10:20'
+      amount: '-10:-20'
       chance: 1.0
     commands:
     - chance: '0.33'
@@ -207,7 +207,7 @@ mobs:
   endermite:
     enabled: true
     money:
-      amount: '10'
+      amount: '5'
       chance: 1.0
     commands:
     - chance: '0.10'
@@ -223,7 +223,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '15'
+      amount: '10'
       chance: 1.0
     commands:
     - chance: '0.10'
@@ -239,7 +239,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '5.0'
+      amount: '5.5'
       chance: 1.0
     commands:
     - chance: '0.05'
@@ -255,7 +255,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '15'
+      amount: '8'
       chance: 1.0
     commands:
     - chance: '0.10'
@@ -303,7 +303,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '15'
+      amount: '8'
       chance: 1.0
     commands:
     - chance: '0.25'
@@ -383,7 +383,7 @@ mobs:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: '10'
+      amount: '8'
       chance: 1.0
     commands:
     - chance: '0.50'
@@ -563,7 +563,7 @@ boss:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: 1000:2000
+      amount: 500:1000
       chance: 1.0
     commands:
     - chance: '0.50'
@@ -581,7 +581,7 @@ boss:
     enabled: true
     message: You killed a §1{killed}
     money:
-      amount: 2000.0:5000.0
+      amount: 1000.0:3000.0
       chance: 1.0
     commands:
     - chance: '1'
@@ -1042,7 +1042,7 @@ passive:
 
   # ### Wolf settings ###
   wolf:
-    enabled: false
+    enabled: true
     message: You killed a §1{killed}
     money:
       amount: '-10'
@@ -1226,15 +1226,15 @@ achievements:
   # ########################################################################
   specials:
     charged_kill:
-      money: 10.0
+      money: 3.0
       commands: '[{chance=0.05}]'
       message: ''
     creeper_punch:
-      money: 10.0
+      money: 5.0
       commands: '[{chance=0.05}]'
       message: ''
     axe_murderer:
-      money: 10.0
+      money: 5.0
       commands: '[{chance=0.05}]'
       message: ''
     david_and_goliath:
@@ -1262,7 +1262,7 @@ achievements:
       commands: '[{chance=0.05}]'
       message: ''
     itsmagic:
-      money: 10.0
+      money: 5.0
       commands: '[{chance=0.05}]'
       message: ''
     fancypants:
@@ -1278,7 +1278,7 @@ achievements:
       commands: '[{chance=0.05}]'
       message: ''
     fangmaster:
-      money: 10.0
+      money: 4.0
       commands: '[{chance=0.05}]'
       message: ''
 
@@ -1528,13 +1528,13 @@ multiplier:
   # Killstreak will be disabled if you set the multiplier: 1.0
   killstreak:
     level1: 5
-    level1_multiplier: 1.5
+    level1_multiplier: 1.1
     level2: 10
-    level2_multiplier: 2.0
+    level2_multiplier: 1.25
     level3: 20
-    level3_multiplier: 3.0
+    level3_multiplier: 1.5
     level4: 40
-    level4_multiplier: 4.0
+    level4_multiplier: 2.0
 
   # ########################################################################
   # Rank multipliers
