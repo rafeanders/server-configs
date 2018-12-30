@@ -26,6 +26,34 @@ classes:
   Oddjob:
     items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+
+####################### Classes############################   
+#  Trapster:
+#    items: iron_sword, potion:8197:5, 30:10, 88:8
+#    armor: 306,307,308,309
+#  Demoman:
+#    items: iron_sword, potion:8197:5, tnt:64,  tnt:64,  tnt:64,  tnt:64
+#    armor: 306,307,308,309
+#  Healer:
+#    items: wood_sword, potion:8197:45, potion:16389:64, potion:16389:64,potion:16389:64, potion:16425:4, potion:16389:64
+#    armor: 298,299,300,301
+#  Viking:
+#    items: 279, potion:8197:5
+#    armor: 310,311,312,313
+#  Cook:
+#    items: wood_sword, potion:8197:5, 322:50, 354:40
+#    armor: 298,299,300,301
+#  Assisin:
+#    items: iron_sword, potion:8197:5, potion:16425:10,  potion:8226:2
+#    armor: 302,303,304,305
+#  Herbalist:
+#    items: iron_sword, potion:8197:11, 18:5, 322:30, potion:16425:2, potion:8226:2
+#    armor: 298,299,300,301
+#  Mechanic:
+#    items: iron_sword, potion:8197:5, 72:10, 76:5, 77:5, 23:10, 262:64, 262:64, 262:64, 385:64, 385:64, 331:30, 356:8
+#    armor: 302,303,304,305
+        
+
 arenas:
   village:
     settings:
@@ -175,7 +203,7 @@ arenas:
       isolated-chat: false
       global-join-announce: false
       global-end-announce: false
-      show-death-messages: true
+      show-death-messages: truewell 
     waves:
       recurrent:
         def1:
@@ -223,7 +251,7 @@ arenas:
           type: boss
           wave: 9
           monster: spider
-          health: medium
+          health: low
           abilities: fire-aura, disorient-target, fireballs, throw-nearby
           effects: speed:3:20, wither, increase_damage:1
           ability-interval: 5
@@ -231,7 +259,7 @@ arenas:
           type: boss
           wave: 13
           monster: zombie_pigman
-          health: high
+          health: medium
           abilities: root-target, arrows, fetch-distant, fire-aura
           drops: lever, stone_button
         upgrade2:
@@ -246,14 +274,14 @@ arenas:
               items: iron_sword knockback:3
             Oddjob:
               armor: iron_chestplate, iron_leggings
-            Wizard:
-              permissions:
-              - magicspells.cast.ChainLightning
+#            Wizard:
+#              permissions:
+#              - magicspells.cast.ChainLightning
         boss3:
           type: boss
           wave: 16
           monster: wolf
-          health: psycho
+          health: medium
           abilities: warp-to-player, fire-aura, throw-nearby, fireballs, fetch-target,
             arrows
           effects: slow:1
@@ -317,3 +345,18 @@ arenas:
       My Items: -1
       Tank: -1
       Chemist: -1
+####### Additional wave templates#####################          
+#        thunder_chicken:
+#          type: boss
+#          wave: 9
+#          monster: chicken
+#          health: low
+#          abilities: chain-lightning
+#          ability-interval: 10
+#          ability-announce: true
+#         babyzombie:
+#           type: boss
+#           wave: 10
+#           monster: baby_zombie
+#           health: high
+#           abilities: arrows, throw-nearby, obsidian-bomb, disorient-nearby, warp-to-player, shuffle-positions
