@@ -1501,17 +1501,17 @@ multiplier:
   # REMEMBER: These are not in $ but they are a multiplier. 
   # Setting to 1 will disable them.
   bonus:
-    sneaky: 1.25
-    return_to_sender: 1.25
-    push_off_cliff: 1.25
-    no_weapon: 2.0
+    sneaky: 1.10
+    return_to_sender: 1.15
+    push_off_cliff: 1.15
+    no_weapon: 1.5
 
     # This is the PRO_Sniper bonus. The Sniper bonus is calulated as half of PRO_Sniper bonus.
     # If If PRO Sniper (far_shot) is 2, then Sniper will be = 1+((far_shot_1)/2)=1.5
     far_shot: 2.0
     mounted: 1.5
-    friendly_fire: 4.0
-    bonus_mob: 10.0
+    friendly_fire: 2.5
+    bonus_mob: 2.0
     bonusMob_head_prize: '100'
     critical: 2.0
 
