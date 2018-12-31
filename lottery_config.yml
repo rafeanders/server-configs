@@ -9,7 +9,7 @@ TimeDraws:
 GlobalBoughtMessage: true
 TicketCost: 10.0
 MoneyToPot: 10.0
-ExtraInPot: 5.0
+ExtraInPot: 10.0
 Refund: 10.0
 TaxesPercent: 10
 ServerAccount: none
