@@ -1,0 +1,16 @@
+# Challenges Config
+
+# Reset Challenges - if this is true, player's challenges will reset when they
+# reset an island or if they are kicked or leave a team. Prevents exploiting the
+# challenges by doing them repeatedly.
+resetchallenges: false
+
+# Broadcast 1st time challenge completion messages to all players.
+# Change to false if the spam becomes too much.
+broadcastmessages: true
+
+# Remove non-repeatable challenges from the challenge GUI when complete
+removecompleteonetimechallenges: false
+
+# Add enchanted glow to completed challenges
+addcompletedglow: true
