@@ -30,7 +30,7 @@ generators:
 #Generator template
   generatorX:
     blocks:
-    - ORE
+    - ORE:x.x
     permission: ''
     unlock_islandLevel: ''
  
