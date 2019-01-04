@@ -26,6 +26,14 @@ generators:
     - SANDSTONE:5.0
     permission: ''
     unlock_islandLevel: 20
+    
+#Generator template
+  generatorX:
+    blocks:
+    - ORE
+    permission: ''
+    unlock_islandLevel: ''
+ 
 # Here you can define worlds where the generator should not work
 disabled-worlds:
 - "wankercraft"
