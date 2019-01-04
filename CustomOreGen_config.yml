@@ -13,9 +13,7 @@ generators:
     # default generator
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    - STONE:50.0
-    - SANDSTONE:40.0
-    - IRON_ORE:10.0
+    - COBBLESTONE:100.0
     permission: ''
     # You can also define from what level the generator should be activated. Example: Leave all permissions empty and
     # only work with the island Level. The plugin would only consider the islandLevel then.
@@ -26,8 +24,14 @@ generators:
     - IRON_ORE:90.0
     - STONE:5.0
     - SANDSTONE:5.0
-    permission: 'oregen.vip'
-    unlock_islandLevel: 0
+    permission: ''
+    unlock_islandLevel: 20
 # Here you can define worlds where the generator should not work
 disabled-worlds:
-- "world_nether"
+- "wankercraft"
+- "wankercraft_nether"
+- "wankercraft_the_end"
+- "Originalwank"
+- "wankerdeuce"
+- "guest_live"
+- "Skynet"
