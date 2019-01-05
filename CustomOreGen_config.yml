@@ -33,9 +33,9 @@ generators:
     - STONE:75
     - SANDSTONE:5
     - IRON_ORE:15
-	  - GOLD_ORE:5
-	  permission: ''
-	  unlock_islandLevel: 20
+    - GOLD_ORE:5
+          permission: ''
+          unlock_islandLevel: 20
 
   generator4:
     # LVL 30
