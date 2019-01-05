@@ -44,13 +44,13 @@ generators:
     - STONE:60
     - SANDSTONE:5
     - IRON_ORE:15
-	  - DIAMOND_ORE:3
-	  - EMERALD_ORE:3
-	  - GOLD_ORE:5
-	  - LAPIS_ORE:4
-	  - REDSTONE_ORE:5
-	  permission: ''
-	  unlock_islandLevel: 30
+    - DIAMOND_ORE:3
+    - EMERALD_ORE:3
+    - GOLD_ORE:5
+    - LAPIS_ORE:4
+    - REDSTONE_ORE:5
+          permission: ''
+          unlock_islandLevel: 30
 
 #Generator template
 #  generatorX:
