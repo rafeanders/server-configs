@@ -14,8 +14,8 @@ generators:
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     - STONE:100
-          permission: ''
-          unlock_islandLevel: 0
+    permission: ''
+    unlock_islandLevel: 0
 
   generator2:
     # LVL 10
@@ -23,8 +23,8 @@ generators:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     - STONE:80
     - SANDSTONE:20
-          permission: ''
-          unlock_islandLevel: 10
+    permission: ''
+    unlock_islandLevel: 10
 
   generator3:
     # LVL 20
@@ -34,8 +34,8 @@ generators:
     - SANDSTONE:5
     - IRON_ORE:15
     - GOLD_ORE:5
-          permission: ''
-          unlock_islandLevel: 20
+    permission: ''
+    unlock_islandLevel: 20
 
   generator4:
     # LVL 30
@@ -49,8 +49,8 @@ generators:
     - GOLD_ORE:5
     - LAPIS_ORE:4
     - REDSTONE_ORE:5
-          permission: ''
-          unlock_islandLevel: 30
+    permission: ''
+    unlock_islandLevel: 30
 
 #Generator template
 #  generatorX:
