@@ -16,7 +16,7 @@ generators:
     - STONE:100
           permission: ''
           unlock_islandLevel: 0
-	
+
   generator2:
     # LVL 10
     blocks:
@@ -36,7 +36,6 @@ generators:
 	  - GOLD_ORE:5
 	  permission: ''
 	  unlock_islandLevel: 20
-	
 
   generator4:
     # LVL 30
@@ -52,7 +51,7 @@ generators:
 	  - REDSTONE_ORE:5
 	  permission: ''
 	  unlock_islandLevel: 30
-    
+
 #Generator template
 #  generatorX:
 #    blocks:
