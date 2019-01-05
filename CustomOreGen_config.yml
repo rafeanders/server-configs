@@ -41,14 +41,15 @@ generators:
     # LVL 30
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    - STONE:70
-    - SANDSTONE:5
+    - STONE:71
+    - SANDSTONE:2
     - IRON_ORE:15
     - DIAMOND_ORE:1
     - EMERALD_ORE:1
-    - GOLD_ORE:5
+    - GOLD_ORE:3
     - LAPIS_ORE:1
     - REDSTONE_ORE:2
+    - COAL_ORE:4
     permission: ''
     unlock_islandLevel: 30
 
