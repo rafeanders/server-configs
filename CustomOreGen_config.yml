@@ -23,8 +23,8 @@ generators:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
     - STONE:80
     - SANDSTONE:20
-	  permission: ''
-	  unlock_islandLevel: 10
+          permission: ''
+          unlock_islandLevel: 10
 
   generator3:
     # LVL 20
