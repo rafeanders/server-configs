@@ -41,12 +41,12 @@ generators:
     # LVL 30
     blocks:
     # Please use Bukkit-Blocknames. List: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
-    - STONE:71
+    - STONE:72
     - SANDSTONE:2
     - IRON_ORE:15
     - DIAMOND_ORE:1
     - EMERALD_ORE:1
-    - GOLD_ORE:3
+    - GOLD_ORE:2
     - LAPIS_ORE:1
     - REDSTONE_ORE:2
     - COAL_ORE:4
